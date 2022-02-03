@@ -1,12 +1,28 @@
 {
   "clients": [
     {
-      "name": "x",
-      "company": "x",
-      "email": "x@x.c",
-      "phone": "12345",
-      "notes": "",
+      "name": "Gabriel",
+      "company": "Orion",
+      "email": "correo@correo.com",
+      "phone": "8711123456",
+      "notes": "Las notas del cliente",
       "id": 1
+    },
+    {
+      "name": "Jhon",
+      "company": "Orion",
+      "email": "correo2@correo.com",
+      "phone": "8712123456",
+      "notes": "Las notas de Jhon",
+      "id": 2
+    },
+    {
+      "name": "Karla",
+      "company": "Orion",
+      "email": "correo3@correo.com",
+      "phone": "8713123456",
+      "notes": "Las notas de Karla",
+      "id": 3
     }
   ]
 }
