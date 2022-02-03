@@ -10,7 +10,7 @@ const Home = () => {
     setLoading(!loading);
     const getClientsApi = async () => {
       try {
-        const url = 'http://localhost:4000/clients';
+        const url = import.meta.env.VITE_API_URL;
         const response = await fetch(url);
         const result = await response.json();
         console.log(result);
@@ -30,7 +30,7 @@ const Home = () => {
     const confirmate = confirm('¿Deseas eliminar este cliente?');
     if (confirmate) {
       try {
-        const url = `http://localhost:4000/clients/${id}`;
+        const url = `${import.meta.env.VITE_API_URL}/${id}`;
         const response = await fetch(url, {
           method: 'DELETE',
         });
