@@ -1,3 +1,12 @@
 {
-  "clients": []
+  "clients": [
+    {
+      "name": "x",
+      "company": "x",
+      "email": "x@x.c",
+      "phone": "12345",
+      "notes": "",
+      "id": 1
+    }
+  ]
 }
