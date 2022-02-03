@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./layout/layout";
+import Layout from './components/Layout';
 import Home from "./pages/Home";
 import NewClient from "./pages/NewClient";
 import EditClient from "./pages/EditClient";
